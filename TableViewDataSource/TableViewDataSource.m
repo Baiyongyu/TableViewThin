@@ -28,7 +28,7 @@
 }
 
 - (instancetype)itemAtIndexPath:(NSIndexPath *)indexPath {
-    return self.items[indexPath.row];
+    return self.items[(NSUInteger) indexPath.row];
 }
 
 #pragma mark - UITableViewDataSource

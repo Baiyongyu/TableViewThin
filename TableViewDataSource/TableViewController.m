@@ -10,6 +10,8 @@
 #import "TableViewDataSource.h"
 #import "PhotoCell.h"
 #import "PhotoModel.h"
+#import "ViewController.h"
+
 static NSString *resueIdentifier = @"Cell";
 
 @interface TableViewController () <UITableViewDelegate>
@@ -41,6 +43,16 @@ static NSString *resueIdentifier = @"Cell";
     self.tableViewDataSource = [[TableViewDataSource alloc] initWithItems:self.dataArray CellIdentifier:resueIdentifier ConfigureCellBlock:configureCell];
     self.tableView.dataSource = self.tableViewDataSource;
     [self.tableView registerNib:[PhotoCell nib] forCellReuseIdentifier:resueIdentifier];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 55;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    ViewController *vc = [[ViewController alloc] init];
+//    vc.photo = [self.tableViewDataSource itemAtIndexPath:indexPath];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 

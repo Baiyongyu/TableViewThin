@@ -17,6 +17,7 @@
 		F3C370EA1DF6524C00239C4F /* PhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3C370E71DF6524C00239C4F /* PhotoCell.xib */; };
 		F3C370EB1DF6524C00239C4F /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C370E81DF6524C00239C4F /* PhotoCell.m */; };
 		F3C370EE1DF6530100239C4F /* PhotoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C370ED1DF6530100239C4F /* PhotoModel.m */; };
+		F3C370F41DF65CE600239C4F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C370F31DF65CE600239C4F /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		F3C370E91DF6524C00239C4F /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
 		F3C370EC1DF6530100239C4F /* PhotoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoModel.h; sourceTree = "<group>"; };
 		F3C370ED1DF6530100239C4F /* PhotoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoModel.m; sourceTree = "<group>"; };
+		F3C370F21DF65CE600239C4F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3C370F31DF65CE600239C4F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				F3C370E71DF6524C00239C4F /* PhotoCell.xib */,
 				F3C370E51DF6506300239C4F /* TableViewDataSource.h */,
 				F3C370E41DF6506300239C4F /* TableViewDataSource.m */,
+				F3C370F21DF65CE600239C4F /* ViewController.h */,
+				F3C370F31DF65CE600239C4F /* ViewController.m */,
 				F3C370D61DF6505000239C4F /* Main.storyboard */,
 				F3C370D91DF6505000239C4F /* Assets.xcassets */,
 				F3C370DB1DF6505000239C4F /* LaunchScreen.storyboard */,
@@ -170,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3C370F41DF65CE600239C4F /* ViewController.m in Sources */,
 				F3C370D51DF6505000239C4F /* TableViewController.m in Sources */,
 				F3C370EB1DF6524C00239C4F /* PhotoCell.m in Sources */,
 				F3C370EE1DF6530100239C4F /* PhotoModel.m in Sources */,
